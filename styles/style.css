@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header style start */
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+/* header style end  */
+
+/* banner-section style start */
+.banner-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/Banner\ Image.png");
+  background-size: cover;
+  position: relative;
+  width: 1300px;
+  height: 600px;
+  text-align: center;
+  padding: 177px 344px;
+  z-index: 9;
+}
+
+.banner-section .banner-heading {
+  font-size: 32px;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+.banner-title {
+  color: white;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.blank {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+/* banner section style end */
+
+/* main style start */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* main style end  */
+
+/* hero section style start */
+
+.hero-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.hero-section .hero-title {
+  font-size: 88px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #f00;
+  margin-bottom: 40px;
+}
+
+.hero-section .hero-des {
+  color: #f00;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 15px;
+}
+
+.hero-heading {
+  color: #070211;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.hero-section .hero-img {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+}
+/* hero section style end */
+
+/* welcome section style start */
+.welcome-section {
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1300px;
+  height: 550px;
+  padding: 126px 500px 126px 142px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 100px;
+}
+
+.welcome-section .welcome-title {
+  font-size: 64px;
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.welcome-section .welcome-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 40px;
+}
+
+.welcome-section .welcome-link {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 40px;
+}
+
+.blank2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(2, 2, 29), rgb(1, 1, 24), white);
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.img-div {
+  position: absolute;
+  top: 70px;
+  right: 145px;
+}
+
+.img-2024 {
+  width: 300px;
+}
+
+/* address section style start */
+.address-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1300px;
+  height: 430px;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 100px 300px 300px 230px;
+  margin-bottom: 100px;
+}
+
+.common-sp {
+  color: #f00;
+}
+
+.join2 {
+  padding: 12px 32px;
+  border-radius: 5px;
+  background-color: #f00;
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+/* address section style end */
